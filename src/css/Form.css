@@ -1,0 +1,65 @@
+.container {
+  width: 40vw;
+}
+
+#form {
+  background: #012c55;
+  background: linear-gradient(
+    145deg,
+    rgba(0, 110, 141, 0.95) 0%,
+    rgba(1, 44, 85, 0.95) 100%
+  );
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+#cards > div {
+  border: 1px solid black;
+  border-radius: 30px;
+}
+
+#przychody {
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+  height: 50vh;
+  background-color: aliceblue;
+  overflow: auto;
+  align-content: center;
+
+  box-shadow: 0 0 5px 5px rgba(1, 44, 85, 1), 0 0 30px 15px rgba(5, 70, 110, 1),
+    0 0 45px 25px rgba(0, 111, 141, 1);
+
+  background: #012c55;
+  background: linear-gradient(
+    145deg,
+    rgba(0, 110, 141, 0.95) 0%,
+    rgba(1, 44, 85, 0.95) 100%
+  );
+}
+
+#wydatki {
+  display: flex;
+  flex-direction: column;
+  width: 23vw;
+  height: 50vh;
+  background-color: aliceblue;
+  overflow: auto;
+  align-content: center;
+
+  box-shadow: 0 0 5px 5px rgba(1, 44, 85, 1), 0 0 30px 15px rgba(5, 70, 110, 1),
+    0 0 45px 25px rgba(0, 111, 141, 1);
+
+  background: #012c55;
+  background: linear-gradient(
+    145deg,
+    rgba(1, 44, 85, 0.95) 0%,
+    rgba(0, 111, 141, 0.95) 100%
+  );
+}
