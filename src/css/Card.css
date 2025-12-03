@@ -1,0 +1,13 @@
+#container{
+    width: 15vw;
+    height: 12vh;
+    
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-radius: 10px;
+    border: 1px solid;
+    
+}
+
